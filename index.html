@@ -12,11 +12,11 @@
             z-index: 2000; display: flex; flex-direction: column; justify-content: center; align-items: center;
         }
         #sidebar {
-            position: fixed; left: 0; top: 0; width: 80vw; height: 100vh; max-width: 340px;
+            position: fixed; left: 0; top: 0; width: 60vw; height: 100vh; max-width: 240px;
             background: var(--panel); border-right: 1px solid var(--gold);
             z-index: 100; padding: 25px; box-sizing: border-box;
             display: flex; flex-direction: column; backdrop-filter: blur(20px);
-            transform: translateX(-75px); transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+            transform: translateX(-220px); transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
         }
         #sidebar:hover { transform: translateX(0); }
         #sidebar h3 { margin: 0 0 20px; border-bottom: 1px solid var(--gold); padding-bottom: 10px; font-weight: 300; letter-spacing: 2px; }
@@ -636,4 +636,5 @@
     </script>
 </body>
 </html>
+
 
